@@ -1,9 +1,8 @@
 package fr.bordeaux.isped.sitis.examinf201.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import fr.bordeaux.isped.sitis.examinf201.enums.BloodGroupEnum;
+import fr.bordeaux.isped.sitis.examinf201.enums.AlleleEnum;
 import fr.bordeaux.isped.sitis.examinf201.enums.GenderEnum;
-
 import java.time.LocalDate;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -14,7 +13,8 @@ public class PatientDTO {
     private GenderEnum patientGender;
     private LocalDate patientBirthDate;
     private String patientBirthPlace;
-    private String patientBloodGroup;
+    private AlleleEnum patientAllele1;
+    private AlleleEnum patientAllele2;
 
     //Constructor
     public PatientDTO() {
@@ -61,11 +61,19 @@ public class PatientDTO {
         this.patientBirthPlace = patientBirthPlace;
     }
 
-    public String getPatientBloodGroup() {
-        return patientBloodGroup;
+    public AlleleEnum getPatientAllele1() {
+        return patientAllele1;
     }
 
-    public void setPatientBloodGroup(BloodGroupEnum patientBloodGroup) {
-        this.patientBloodGroup = String.valueOf(patientBloodGroup);
+    public void setPatientAllele1(AlleleEnum patientAllele1) {
+        this.patientAllele1 = patientAllele1;
+    }
+
+    public AlleleEnum getPatientAllele2() {
+        return patientAllele2;
+    }
+
+    public void setPatientAllele2(AlleleEnum patientAllele2) {
+        this.patientAllele2 = patientAllele2;
     }
 }

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface PatientRepository extends JpaRepository<PatientDomain, String> {
+public interface PatientRepository extends JpaRepository<PatientDomain, Integer> {
 
     @Query(
             value = ""

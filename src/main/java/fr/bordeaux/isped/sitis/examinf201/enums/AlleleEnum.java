@@ -1,8 +1,7 @@
 package fr.bordeaux.isped.sitis.examinf201.enums;
 
-public enum BloodGroupEnum {
+public enum AlleleEnum {
     A,
     B,
-    AB,
     O;
 }
