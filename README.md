@@ -5,8 +5,8 @@ Ce projet consiste en la création d'une application Java avec Spring Boot pour 
 ## Instructions d'Installation
 
 1. Clonez ce dépôt :
-git clone https://github.com/votre-utilisateur/examen-inf201.git 
-2. Accédez au répertoire du projet : cd examen-inf201
+git clone https://github.com/Marwa-Benamor/application-java-de-gestion-de-patients
+2. Accédez au répertoire du projet : cd application-java-de-gestion-de-patients
 3. Ouvrez le projet avec un editeur de texte (IntelliJ par exemple)
 4. Configurez le fichier `application.properties.example` : Assurez-vous de configurer le fichier `application.properties` pour définir les paramètres de connexion à la base de données PostgreSQL. Vous devrez spécifier la base de données à laquelle l'application se connectera, le nom d'utilisateur utilisé pour la connexion et le mot de passe associé. 
 5. Enregistrez les modifications dans le fichier `application.properties`.
@@ -87,10 +87,3 @@ git clone https://github.com/votre-utilisateur/examen-inf201.git
 
 Les données sont stockées dans une base de données PostgreSQL dans le schéma `exam_inf201`.
 
-## Contact
-
-Pour toute remarque, contacte-moi Romain.
-
-## Remerciements
-
-Je te remercie pour ton aide à la réalisation de ce projet.
