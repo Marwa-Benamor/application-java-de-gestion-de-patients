@@ -1,4 +1,4 @@
-# Projet d'Examen INF201 : Application Java de Gestion de Patients
+# Application Java de Gestion de Patients
 
 Ce projet consiste en la création d'une application Java avec Spring Boot pour la gestion de patients. L'application permet d'enregistrer de nouveaux patients, de récupérer des informations sur des patients existants, de compter les patients par genre, et de créer de nouveaux patients basés sur les données de leurs parents.
 
